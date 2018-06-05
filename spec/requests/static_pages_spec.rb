@@ -1,4 +1,5 @@
-require 'rails_helper'
+require 'specs_helper'
+
 describe "Static pages" do
 
   describe "Home page" do
@@ -16,6 +17,7 @@ describe "Static pages" do
       page.should have_content('Help')
     end
   end
+
   describe "About page" do
 
     it "should have the content 'About Us'" do
